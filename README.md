@@ -19,7 +19,7 @@ On the main menu, press `1` to view a list of recently edited programs and press
 | `2nd` and `alpha` | changes what token is inserted when typing |
 | `mode` | Exits the editor |
 | `enter` | Creates a new line, and moves all characters under and after the cursor to the new line |
-| All keys below the arrow keys | Types a token based on the current keyboard. See [keyboards](https://github.com/pi644721/PiEditor/edit/main/README.md#keyboards)|
+| All keys below the arrow keys | Types a token based on the current keyboard. See [keyboards](https://github.com/pi644721/PiEditor/blob/main/README.md#keyboards)|
 | `Y=` | Changes the theme of the program* |
 | `graph` | Exits the program to the main menu* |
 | `Zoom` | Prompts a line to jump to. To jump a relative ammount, put a `+` or `-` before the number* |
