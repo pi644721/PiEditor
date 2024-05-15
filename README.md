@@ -53,8 +53,7 @@ Press `alpha` and `2nd` to change what keys type when pressed.
 |   X   |   Y   |   Z   | theta |   "   |
 |       |   :   | space |  Ans  |newline|
 
-Strx: Planned feature
-
+StrX: Planned feature  
 Theta: looks like `θ`
 
 ### Alpha + 2nd
