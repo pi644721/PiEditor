@@ -4,7 +4,7 @@ This program requires the Celtic CE libraries, which can be found at [bit.ly/Cel
 Please give feedback and report bugs [here](https://cemetech.net/forum/viewtopic.php?t=19472).
 
 # Credits
-Thanks to: Vital Ash for Aether, the on-calc program editor that I wrote a lot of this program editor in and RoccoLox Programs for Celtic CE, which made this editor possible
+Thanks to Vital Ash for Aether, the on-calc program editor that I wrote a lot of this program editor in and RoccoLox Programs for Celtic CE, which made this editor possible
 
 # Use
 After running the program for the first time, select whether you want to edit a program (press `2`) or a Celtic appvar (press `3`). You can use `alpha` to toggle between uppercase characters, lowercase characters (if you're editing and appvar), and numbers. Enter the program/appvar's name and press enter to enter the editor.
