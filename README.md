@@ -44,7 +44,7 @@ Numbers and Logic
 
 ### 2nd
 Program control, I/O, String manipulation and more
-| &nbsp; &nbsp; Lbl &nbsp; &nbsp; | &nbsp; &nbsp; Goto &nbsp; | &nbsp; Menu( &nbsp; | &nbsp; prgm &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| Lbl | Goto | Menu( | prgm | |
 | :---: | :---: | :---: | :---: | :---: |
 |ClrHome| Input |Output(|  Disp |getKey |
 |length(|  sub( |toString( | expr( |inString( |
