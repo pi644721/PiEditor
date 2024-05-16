@@ -7,9 +7,9 @@ Please give feedback and report bugs [here](https://cemetech.net/forum/viewtopic
 Thanks to Vital Ash for Aether, the on-calc program editor that I wrote a lot of this program editor in and RoccoLox Programs for Celtic CE, which made this editor possible.
 
 # Use
-After running the program for the first time, select whether you want to edit a program (press `2`) or a Celtic appvar (press `3`). You can use `alpha` to toggle between uppercase characters, lowercase characters (if you're editing and appvar), and numbers. Enter the program/appvar's name and press enter to enter the editor.
-
-On the main menu, press `1` to view a list of recently edited programs and press a number `1` - `8` to edit that program or `clear` to exit to the main menu.
+On the main menu:
+- Press `2` or `3` to edit a program or appvar. Use `alpha` to toggle between uppercase characters, lowercase characters (if you're editing an appvar), and numbers. Enter the program/appvar's name and press enter to enter the editor.
+- Press `1` to view a list of recently edited programs and choose that program with the `1` - `8` keys, or press `clear` to return to the main menu.
 
 # Keys
 | Key(s) | function |
@@ -20,18 +20,16 @@ On the main menu, press `1` to view a list of recently edited programs and press
 | `mode` | Exits the editor |
 | `enter` | Creates a new line, and moves all characters under and after the cursor to the new line |
 | All keys below the arrow keys | Types a token based on the current keyboard. See [keyboards](https://github.com/pi644721/PiEditor/blob/main/README.md#keyboards)|
-| `Y=` | Changes the theme of the program* |
-| `graph` | Exits the program to the main menu* |
-| `Zoom` | Prompts a line to jump to. To jump a relative ammount, put a `+` or `-` before the number* |
-| `Window`, and `Trace` | Jump up or down 12 lines* |
+| `Y=`* | Changes the theme of the program |
+| `graph`* | Exits the program to the main menu |
+| `Zoom`* | Prompts a line to jump to. To jump a relative ammount, put a `+` or `-` before the number |
+| `Window`, and `Trace`* | Jump up or down 12 lines |
 
 \* Upcoming feature, not yet working
 
 
 ## Keyboards
-NOTE: These layouts are not acurate to the layouts in the program. Will be updated soon
-
-Press `alpha` and `2nd` to change what keys type when pressed.
+Press `alpha` and `2nd` to change what characters are typed when a key is pressed.
 
 ### No modifiers
 Numbers and Logic
@@ -55,7 +53,7 @@ Program control, I/O, String manipulation and more
 |  (?)  |   If  | Then  | Else  |  (?)  |
 |       |Return | Stop  |Delvar |newline|
 
-(?): Not asigned token yet
+(?): Not asigned token yet. Feel free to suggest what to put here.
 
 ### Alpha
 Uppercase characters/Real variables
