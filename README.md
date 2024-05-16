@@ -34,16 +34,31 @@ NOTE: These layouts are not acurate to the layouts in the program. Will be updat
 Press `alpha` and `2nd` to change what keys type when pressed.
 
 ### No modifiers
-| &nbsp; &nbsp; and &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; != &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; ≤ &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; ≥ &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+Numbers and Logic
+| &nbsp; &nbsp; and &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; != &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; ≥ &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; ≤ &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | :---: | :---: | :---: | :---: | :---: |
-|  or   |   =   |   <   |   >   |   ^   |
+|  or   |   =   |   >   |   <   |   ^   |
 |  not( |   ,   |   (   |   )   |   /   |
-|       |   7   |   8   |   9   |   *   |
-|       |   4   |   5   |   6   |   -   |
+|  min( |   7   |   8   |   9   |   *   |
+|  max( |   4   |   5   |   6   |   -   |
 | sto-> |   1   |   2   |   3   |   +   |
 |       |   0   |   .   |  (-)  |newline|
 
+### 2nd
+Program control, I/O, String manipulation and more
+| &nbsp; &nbsp; Lbl &nbsp; &nbsp; | &nbsp; &nbsp; Goto &nbsp; | &nbsp; Menu( &nbsp; | &nbsp; prgm &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| :---: | :---: | :---: | :---: | :---: |
+|ClrHome| Input |Output(|  Disp |getKey |
+|length(|  sub( |toString( | expr( |inString( |
+|  det( |  End  | Pause |  Wait |  (?)  |
+|rowSwap(|  For( | While |Repeat |  (?)  |
+|  (?)  |   If  | Then  | Else  |  (?)  |
+|       |Return | Stop  |Delvar |newline|
+
+(?): Not asigned token yet
+
 ### Alpha
+Uppercase characters/Real variables
 | &nbsp; &nbsp; &nbsp; A &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; B &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; C &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; StrX &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | :---: | :---: | :---: | :---: | :---: |
 |   D   |   E   |   F   |   G   |   H   |
@@ -51,12 +66,13 @@ Press `alpha` and `2nd` to change what keys type when pressed.
 |   N   |   O   |   P   |   Q   |   R   |
 |   S   |   T   |   U   |   V   |   W   |
 |   X   |   Y   |   Z   | theta |   "   |
-|       |   :   | space |  Ans  |newline|
+|       | space |   :   |  Ans  |newline|
 
 StrX: Planned feature  
 Theta: looks like `θ`
 
 ### Alpha + 2nd
+Lowercase letters
 | &nbsp; &nbsp; &nbsp; a &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; b &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; c &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | :---: | :---: | :---: | :---: | :---: |
 |   d   |   e   |   f   |   g   |   h   |
@@ -64,4 +80,4 @@ Theta: looks like `θ`
 |   n   |   o   |   p   |   q   |   r   |
 |   s   |   t   |   u   |   v   |   w   |
 |   x   |   y   |   z   |   .   |   "   |
-|       |   !   | space |   ?   |newline|
+|       | space |   !   |   ?   |newline|
