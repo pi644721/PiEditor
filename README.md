@@ -106,7 +106,7 @@ The menu doesn't actually get displayed, but the menu name is displayed in the t
 
 `L1` - `L6` are the default list tokens, `L` is the custom list token.
 
-### List operators
+#### List operators
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 |
 | - | - | - | - | - | - | - | - | - | - |
 | SortA( | SortD( | dim( | Fill( | seq( | cumSum( | deltaList( | augument( | List>Matr( | Matr>List( |
