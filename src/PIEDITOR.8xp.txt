@@ -1,0 +1,292 @@
+:"TI-Basic program editor by p\i644721
+:"BBBBB3333333333B3333333333333333BB3B3BB3B3333333333B333333333333BB3B33BBB3BB3333333B333333333333BB3B33B3BB333333333B333333333333BB3B3BB333333333333B333333333333BB3B333333333333333B333333333333BB3B3BBB33333333333B333333333333BB3B3BB3BBB33333333B333333333333
+
+If 90>det([[20:Then
+	Disp "Get Celtic CE to run this:
+	Pause "bit.ly/CelticCE
+	Return
+End
+
+"rowSwap(PiRecent->Str0
+det(75,0
+
+~1->K
+
+det(8
+If Str9="..P:NT:FN
+Then
+	det(4:15->K
+End
+If sub(Str9,1,1)="A
+det(5
+
+Repeat K=45 or K=21 or K=105
+	If K=15:Then
+		det(16,Black
+		"Finding programs..\.->Str9
+		det(13,0,255,255,0,0,92,115
+		0:det(0:1
+	For(I,1,theta:det(7:End
+		det(33,0:Str9->Str1
+		1->I:1->C:length(Str1->L
+		While C<L
+			inString(Str1," ",C->T
+			sub(Str1,C,T-C->Str0
+			det(27
+			If theta=2 and Str0!="CEaShTmp
+			Then
+				Str0->Str9
+				det(76,0
+				I:det(2:I+1->I
+			End
+			T+1->C
+		End
+		I:det(7
+		~1->K
+	End
+	
+	If K=~1:Then
+		det(16,0,0
+		"Edit program:->Str9
+		det(13,0,White,Black,111,5
+		det(68,White,111,18,95
+		"Press [graph] to detect new programs->Str9
+		det(13,0,White,Black,27,224
+		0:det(0:min(theta,12->theta
+		1->Y
+		Repeat Y>theta or Y>12
+			det(0
+			det(13,0,White,Black,125,16Y+8
+			Y+1->Y
+		End
+		1->Y
+	End
+	
+	det(15,0,123,16Y+8,70,14
+Repeat Ans:getKey->K:End
+	det(15,0,123,16Y+8,70,14
+	Y+(K=34)-(K=25
+	If Ans<1:theta
+	If Ans>theta:1
+	Ans->Y
+	
+	If K=21 or K=105:Then
+		Y:det(0:Str9->Str0
+		det(8
+		15
+		If Str9="..P:NT:FN
+		det(76,0->K
+		sub(Str9,1,1)="A->D
+		If Ans:det(5
+	End
+	
+End
+If K=45:Goto Q
+
+"042A3F
+det(41:Str9->Str2
+
+1->A:1->B
+0->X:1->Y:0->M
+0:det(0:theta->L
+det(16,Black
+Str0->Str9
+det(13,0,White,Black,2,0
+det(68,White,0,14,320
+For(I,M+1,M+14
+	eval(I+M
+	If I<|E1:"0"+Ans
+	If I<|E2:"0"+Ans
+	If I<|E3:"0"+Ans
+	Ans->Str9
+	det(13,0,White,Black,2,16I
+	I+M:det(0
+	If Str9!="..NULLSTR" and Str9!="..L:NT:FN
+	det(13,0,White,Black,38,16I
+End
+det(69,White,34,18,219
+
+Repeat K=45
+	
+	Y:det(0
+	If Str9="..NULLSTR
+	"->Str9
+	length(Str9->N
+	
+	1:If X and N:Then
+		sub(Str9,1,X
+		det(54,0:theta
+	End:Ans->Z
+	
+	3->theta:If X<N:Then
+		sub(Str9,X+1,1
+		det(54,0:theta
+	End
+	
+	det(15,0,36+Z,16(Y-M)+1,theta-1,12
+Repeat Ans:getKey->K:End
+	det(15,0,36+Z,16(Y-M)+1,theta-1,12
+	
+	If max(K={34,25,14,15:Then
+		For(theta,1,1+7(K<16
+			max(1,min(L,Y+(K=34 or K=15)-(K=25 or K=14->Y
+			prgmthetaPIFILL
+		End
+		0->X
+	End
+	
+	If K=24 or K=26:Then
+		X+(K=26)-(K=24->X
+		If Ans>N:Then
+		min(L,Y+1->Y:0->X:End
+		If X<0:Then
+			max(1,Y-1->Y:det(0
+			length(Str9)(Str9!="..NULLSTR->X
+		End
+		prgmthetaPIFILL
+	End
+	
+	If K>40 and K!=105 and K!=45 or K=33:Then
+		"..\..\.=Ans{}^K,()/:789*det(456-"+sub(Str2,1,1)+"123+.0.~
+		If A=2:"ABC?.DEFGHIJKLMNOPQRSTUVWXYZtheta"+sub(Str2,2,1)+". :Ans
+		If A=3:"abc?.defghijklmnopqrstuvwxyz."+sub(Str2,2,1)+". :?
+		
+		If A<2 and K<45:Then
+			det(75,9
+			If K=33:"List      List ops  
+			If K=41:"Test/logicNumber    Random    
+			If K=42:"String ops
+			If K=43:"Control   I/O       
+			If K=44:"Strings   Colors    
+			Ans->Str1
+			
+			0->T:26->K
+			Repeat K=45 or (Ans and Ans<=length(Str3
+				If K=24 or K=26:Then
+					T+(K=26)-(K=24->T
+					If T>.1length(Str1:1
+					If T<1:.1length(Str1
+					Ans->T
+					sub(Str1,10T-9,10->Str9
+					det(15,Black,200,0,100,14
+					det(13,0,White,Black,200,0
+					If Ans="List      ":"L1L2L3L4L5L6|L{}SetUpEditor 
+					If Ans="List ops  ":"SortA(SortD(dim(Fill(seq(cumSum(DeltaList(augment(List>matr(Matr>list(
+					If Ans="Test/logic":"=><!=>=<= and  or not( xor 
+					If Ans="Number    ":"abs(round(iPart(fPart(int(min(max(real(imag(sum(mean(
+					If Ans="Random    ":"randrandInt(randIntNoRep(
+					If Ans="String ops":"sub(length(inString(eval(expr(toString(
+					If Ans="Control   ":"If ThenElseFor(While Repeat EndPause Lbl Goto Wait IS>(DS<(Menu(prgmReturnStopDelVar 
+					If Ans="I/O       ":"Input Prompt Disp Pause Menu(Output(getKeyClrHome
+					If Ans="Strings   ":"Str1Str2Str3Str4Str5Str6Str7Str8Str9Str0
+					If Ans="Colors    ":"BlueRedBlackMagentaGreenOrangeBrownNavyLtBlueYellowWhiteLtGrayMedGrayGrayDarkGray
+					Ans->Str3
+				End
+				
+				Repeat Ans or K=24 or K=26 or K=45
+					getKey->K
+					K={105,92,93,94,82,83,84,72,73,74,102,41,42,43,51,52,53,54,55
+					max(Ans{1,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18->I
+				End
+			End
+			
+			det(15,Black,200,0,100,14
+			det(76,9
+			K!=45->K
+			If K:sub(Str3,I,1
+		Else
+			sub(Ans,K-5int(.1K+4),1
+		End
+		
+		If K:Then
+			If X:sub(Str9,1,X)+Ans
+			If X<N:Ans+sub(Str9,X+1,N-X
+			Ans->Str9
+			Y:det(1
+			det(13,0,White,Black,38,16(Y-M
+			X+1->X
+			
+			If A=2:Then
+				1->A
+				"    ->Str9
+				det(13,0,White,Black,309,0
+			End
+		End
+	End
+	
+	If K=23:Then
+		If X=N and Y<L:Then
+			Str9->Str8
+			Y+1:det(0
+			If not(N) or Str9="..NULLSTR
+			Then
+				det(15,Black,38,16(Y-M),300,14
+				Y+1-not(N:det(7
+				Y:det(0
+			Else
+				Str8+Str9->Str9
+				Y:det(1
+				Ans+1:det(7
+			End
+			length(Str9)(Str9!="..NULLSTR->N
+			If Str9!="..NULLSTR
+			det(13,0,White,Black,38,16(Y-M
+			16(Y-M+1
+			det(58,0,16,38,Ans,300,240-Ans
+			M+14:det(0
+			If Str9!="..NULLSTR" and Str9!="..L:NT:FN
+			det(13,0,White,Black,38,224
+			L-1->L
+		Else
+			"
+			If X<N-1:sub(Str9,X+2,N-X-1
+			If X and length(Ans:sub(Str9,1,X)+Ans
+			If X and not(length(Ans:sub(Str9,1,X
+			det(15,Black,38,16(Y-M),300,14
+			Ans->Str9
+			length(Ans->N
+			If Ans:Then
+				Y:det(1
+				det(13,0,White,Black,38,16(Y-M
+			Else
+				sub(Str2,3,1->Str9
+				Y:det(1:det(7
+			End
+		End
+	End
+	
+	If K=105:Then
+		sub(Str2,3,1
+		If X:sub(Str9,1,X)+Ans
+		If X<N:Ans+sub(Str9,X+1,N-X
+		Ans->Str9
+		Y:det(1:det(0
+		det(15,Black,38,16(Y-M),300,14
+		If Str9!="..NULLSTR
+		det(13,0,White,Black,38,16(Y-M
+		det(58,1,16,38,16(Y-M+1),300,224-16(Y-M)
+		0->X:Y+1->Y
+		det(15,Black,38,16(Y-M),300,14
+		det(0
+		If Str9!="..NULLSTR
+		det(13,0,White,Black,38,16(Y-M
+		L+1->L
+		prgmthetaPIFILL
+	End
+	
+	If K=31 or K=21:Then
+		{2,1,1,1,3,2
+		Ans(A+3(K=21)->A
+		"    
+		If A=2:"A
+		If A=3:"a
+		Ans->Str9
+		det(13,0,White,Black,309,0
+	End
+End
+
+Lbl Q
+If D:det(5
+"rowSwap(PiRecent->Str0:det(5
+det(82
+ClrHome
