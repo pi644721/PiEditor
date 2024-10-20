@@ -1,0 +1,18 @@
+Y-M
+If Ans>14 or Ans<1:Then
+	If Ans>14:14->I
+	If Ans<1:1->I
+	M+(Ans=14)-(Ans=1)->M
+	det(58,K=25 or K=14 or K=24,16,2,16,318,220
+	eval(Y
+	If Y<|E1:"0"+Ans
+	If Y<|E2:"0"+Ans
+	If Y<|E3:"0"+Ans
+	Ans->Str9
+	det(13,0,White,Black,2,16I
+	
+	det(15,Black,38,16(Y-M),280,14
+	Y:det(0
+	If Str9!="..NULLSTR
+	det(13,0,White,Black,38,16I
+End
